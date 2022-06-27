@@ -1,5 +1,6 @@
 //! Http protocol support.
 // pub mod body;
+pub mod headers;
 mod map;
 
 pub use self::map::HeaderMap;
